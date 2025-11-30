@@ -1,5 +1,5 @@
-# _github-pages-challenge-AlexKitipov.kitipov.net
-88da7392d609c48fbdb5ee8827dd12
+# _github-pages-challenge-AlexKitipov.kitipov.net-! това е шаблона 
+ 
 
 # 🌐 Официална страница на Aleksandar Kitipov
 
@@ -22,9 +22,9 @@
 
 ## 🌍 Домейн и хостинг
 
-- Домейн: `kitipov.net`
+- Домейн: `alexkitipov.github.io`
 - Хостинг: GitHub Pages
-- Верификация чрез DNS TXT запис: `88da7392d609c48fbdb5ee8827dd12`
+- Верификация чрез DNS TXT запис: `88da7392d609c48fbdb5ee8827dd12/!-тук се заменя с реален ТХТ запис:`
 
 ## 📜 Лиценз
 
