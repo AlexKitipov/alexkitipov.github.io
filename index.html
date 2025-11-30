@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Алгоритъмът на деня | Algorithm of the Day</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('background.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      margin: 120px auto;
+      max-width: 700px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 16px;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .contacts {
+      font-size: 16px;
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #4da6ff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #3399ff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="about.html">За мен</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="links.html">Линкове</a>
+  </nav>
+
+  <div class="container">
+    <h1>Алгоритъмът на деня | Algorithm of the Day</h1>
+
+    <p class="intro">
+      Това е обучителна уеб страница и визитка, създадена от Александър Китипов и Copilot.<br>
+      Целта ѝ е да служи като шаблон за лична презентация, контактна база и дигитален архив.<br><br>
+      This is an educational web page and personal template, created by Aleksandar Kitipov and Copilot.<br>
+      Its purpose is to serve as a digital business card, contact hub, and learning prototype.
+    </p>
+
+    <p>Написана в Notepad++ и отворена в браузъра. Това е началото на „Алгоритъмът на деня“.</p>
+
+    <button onclick="sayHello()">Натисни ме</button>
+
+    <div class="contacts">
+      <strong>Имейли / Emails:</strong><br>
+      aeksandar.kitipov@gmail.com<br>
+      aeksandar.kitipov@outlook.com<br>
+      aleksandar.kitipov@abv.bg<br><br>
+
+      <strong>Телефон / Phone:</strong><br>
+      0877656831<br>
+      +359 877 656 831<br><br>
+
+      <strong>Официален сайт / Official Site:</strong><br>
+      <em>Очаквайте скоро / Coming soon</em><br><br>
+
+      <strong>WhatsApp:</strong><br>
+      <em>Свържете се чрез WhatsApp на горния номер</em>
+    </div>
+  </div>
+
+  <script>
+    function sayHello() {
+      alert("Здравей от JavaScript!");
+    }
+  </script>
+
+</body>
+</html>
