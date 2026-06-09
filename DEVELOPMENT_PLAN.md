@@ -2,7 +2,7 @@
 
 ## 0. Executive Summary
 
-This repository is currently a lightweight GitHub Pages site built from static HTML files, inline CSS, one shared background image, and several screenshot assets. It already contains useful personal and project signals: Aleksandar Kitipov, Plovdiv/Bulgaria background, bilingual Bulgarian/English presentation, the `kitipov.net` custom domain, and the creative project concept **“Алгоритъмът на деня | Algorithm of the Day.”**
+This repository is currently a lightweight GitHub Pages site built from static HTML files, inline CSS, one shared background image, and several screenshot assets. It already contains useful personal and project signals: Aleksandar Kitipov, Plovdiv/Bulgaria background, English presentation, the `kitipov.net` custom domain, and the creative project concept **“Algorithm of the Day.”**
 
 The recommended transformation is to rebuild the site as a modern, accessible, maintainable portfolio application using:
 
@@ -22,20 +22,20 @@ The first production objective should be a polished static portfolio MVP with no
 
 ### 1.1 Current File Inventory
 
-| File                                | Current purpose                                                                                                             | Useful for new portfolio                                                                        | Recommendation                                                                                                                                               |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `index.html`                        | Static homepage for “Algorithm of the Day” with inline styling, navigation, contact details, and a JavaScript alert button. | Provides title, project concept, bilingual tone, contact references, and original visual style. | Replace with Vite root HTML. Move reusable text into structured data. Remove inline CSS and demo button.                                                     |
-| `about.html`                        | Static about page with biography, role, project philosophy, episode format, archive concept, and links.                     | Most valuable content source. Contains biography and project narrative.                         | Reuse and rewrite into professional portfolio sections. Move project details into `projects` or blog/category data.                                          |
-| `contacts.html`                     | Static contact page with emails, phone, full street address, Facebook, GitHub, Colab, Copilot links.                        | Contains contact channels and social/project links.                                             | Reuse only approved public channels. Do **not** publish full street address by default. Consider replacing phone with optional contact CTA.                  |
-| `links.html`                        | Static links page with project links, emails, Facebook, Copilot, GitHub, Colab, Notepad++, Python.                          | Useful as social/resource inventory.                                                            | Replace with curated `/links` or merge into footer/contact/project sections. Remove unrelated Copilot WhatsApp reference unless intentionally part of brand. |
-| `README.md`                         | Mixed Bulgarian/English repo description, screenshot embeds, GitHub Pages instructions, and demo-template disclaimers.      | Contains domain, purpose, verification token, and current site description.                     | Rewrite after implementation to describe the actual portfolio, setup, scripts, deployment, and content editing workflow.                                     |
-| `CNAME`                             | GitHub Pages custom domain: `kitipov.net`.                                                                                  | Required for GitHub Pages custom domain.                                                        | Preserve in `public/CNAME` or root deployment output.                                                                                                        |
-| `LICENSE`                           | MIT License, copyright Aleksandar Kitipov 2025.                                                                             | Useful legal baseline.                                                                          | Preserve. Consider updating year range if desired.                                                                                                           |
-| `background.png`                    | 1024×1024 PNG background used by all HTML pages.                                                                            | Could be reused as an initial brand texture or archive asset.                                   | Optimize/compress, rename to semantic path, or replace with modern gradient/illustration.                                                                    |
-| `Screenshot_28-11-2025_17016_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                     | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
-| `Screenshot_28-11-2025_17148_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                     | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
-| `Screenshot_28-11-2025_17355_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                     | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
-| `Screenshot_28-11-2025_17523_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                     | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
+| File                                | Current purpose                                                                                                             | Useful for new portfolio                                                                      | Recommendation                                                                                                                                               |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `index.html`                        | Static homepage for “Algorithm of the Day” with inline styling, navigation, contact details, and a JavaScript alert button. | Provides title, project concept, English tone, contact references, and original visual style. | Replace with Vite root HTML. Move reusable text into structured data. Remove inline CSS and demo button.                                                     |
+| `about.html`                        | Static about page with biography, role, project philosophy, episode format, archive concept, and links.                     | Most valuable content source. Contains biography and project narrative.                       | Reuse and rewrite into professional portfolio sections. Move project details into `projects` or blog/category data.                                          |
+| `contacts.html`                     | Static contact page with emails, phone, full street address, Facebook, GitHub, Colab, Copilot links.                        | Contains contact channels and social/project links.                                           | Reuse only approved public channels. Do **not** publish full street address by default. Consider replacing phone with optional contact CTA.                  |
+| `links.html`                        | Static links page with project links, emails, Facebook, Copilot, GitHub, Colab, Notepad++, Python.                          | Useful as social/resource inventory.                                                          | Replace with curated `/links` or merge into footer/contact/project sections. Remove unrelated Copilot WhatsApp reference unless intentionally part of brand. |
+| `README.md`                         | Mixed-language repo description, screenshot embeds, GitHub Pages instructions, and demo-template disclaimers.               | Contains domain, purpose, verification token, and current site description.                   | Rewrite after implementation to describe the actual portfolio, setup, scripts, deployment, and content editing workflow.                                     |
+| `CNAME`                             | GitHub Pages custom domain: `kitipov.net`.                                                                                  | Required for GitHub Pages custom domain.                                                      | Preserve in `public/CNAME` or root deployment output.                                                                                                        |
+| `LICENSE`                           | MIT License, copyright Aleksandar Kitipov 2025.                                                                             | Useful legal baseline.                                                                        | Preserve. Consider updating year range if desired.                                                                                                           |
+| `background.png`                    | 1024×1024 PNG background used by all HTML pages.                                                                            | Could be reused as an initial brand texture or archive asset.                                 | Optimize/compress, rename to semantic path, or replace with modern gradient/illustration.                                                                    |
+| `Screenshot_28-11-2025_17016_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                   | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
+| `Screenshot_28-11-2025_17148_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                   | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
+| `Screenshot_28-11-2025_17355_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                   | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
+| `Screenshot_28-11-2025_17523_.jpeg` | Screenshot asset referenced by README.                                                                                      | Useful only as “legacy site” documentation.                                                   | Move to `docs/legacy/` or remove after redesign.                                                                                                             |
 
 ### 1.2 Existing Structure Assessment
 
@@ -62,7 +62,7 @@ Strengths:
 - Very small and easy to deploy.
 - Already works with GitHub Pages and custom domain.
 - Clear navigation concept: Home, About, Contacts, Links.
-- Strong bilingual identity.
+- Strong English-language identity.
 - Clear flagship project: **Algorithm of the Day**.
 - Simple content that can be converted into structured portfolio data.
 
@@ -88,17 +88,17 @@ Weaknesses:
 
 Reusable identity information:
 
-- Name: **Aleksandar Kitipov** / **Александър Китипов**.
+- Name: **Aleksandar Kitipov**.
 - Location: **Plovdiv, Bulgaria**.
 - Birth year currently stated: **1976**. Use only if intentionally public; otherwise omit.
-- Languages/content style: Bulgarian and English.
+- Languages/content style: English.
 - Domain: **kitipov.net**.
 - GitHub username/reference: **AlexKitipov**.
 - Facebook page/name: **Aleksandar Kitipov**.
 
 Reusable project references:
 
-- **Algorithm of the Day / Алгоритъмът на деня**.
+- **Algorithm of the Day**.
 - GitHub project URL: `https://github.com/AlexKitipov/-Algorithm-of-the-Day-`.
 - Google Colab notebook URL: `https://colab.research.google.com/drive/1QFMujrV8aajNQTwUCzmd_V74PKa_2e4L#scrollTo=eba04bcd`.
 
@@ -113,7 +113,7 @@ Reusable skills and strengths inferred from repository content:
 - Notepad++ workflow.
 - Concept development and creative direction.
 - Project architecture and ritual/episode-format design.
-- Bilingual Bulgarian/English communication.
+- Clear English communication.
 - AI-assisted collaboration with tools such as Copilot and Gemini.
 - Community/media concept development.
 
@@ -127,7 +127,7 @@ Potentially useful narrative elements:
 
 Content to replace or remove:
 
-- The “Натисни ме” alert button on the homepage.
+- The “Click me” alert button on the homepage.
 - The “Coming soon” official site text, because the domain is already configured.
 - Full street address from public contact page.
 - Copilot WhatsApp phone number, unless intentionally documented as an external resource.
@@ -641,7 +641,7 @@ Create professional homepage and about page content using the new design system 
 
 - Homepage includes hero, short bio, featured project, skills preview, and contact CTA.
 - About page includes biography, background, philosophy, collaboration style, and current focus.
-- Content is available in Bulgarian/English style or clearly bilingual sections.
+- Content is available in clear English sections.
 - No layout shift or broken responsive behavior.
 
 **Reviewer notes:**
@@ -901,8 +901,8 @@ Optimize assets, refine animations, finalize responsive behavior, and add produc
 
 Reuse directly, with professional editing:
 
-- Site name/project title: **Algorithm of the Day / Алгоритъмът на деня**.
-- Bilingual identity: Bulgarian and English headings or content summaries.
+- Site name/project title: **Algorithm of the Day**.
+- English identity: clear English headings and content summaries.
 - About-page biography: born and educated in Plovdiv, Bulgaria, if owner approves public use.
 - Role framing: architect/director of the Algorithm of the Day project.
 - Project philosophy: people and algorithms creating a new media format together.
@@ -930,7 +930,7 @@ Do not reuse by default:
 Required for MVP:
 
 - Professional headline, for example: “Creative technologist and digital media project architect.”
-- Short hero bio in Bulgarian and/or English.
+- Short hero bio in English.
 - One preferred public contact email.
 - GitHub profile URL.
 - LinkedIn URL, if available.
@@ -953,11 +953,11 @@ Recommended for Phase 2:
 
 Hero placeholder:
 
-> I am Aleksandar Kitipov, a Plovdiv-based creative technologist building bilingual digital experiences, learning systems, and AI-assisted media concepts. My flagship project, Algorithm of the Day, explores how people and algorithms can turn facts, music, and community rituals into a new form of online media.
+> I am Aleksandar Kitipov, a Plovdiv-based creative technologist building English-language digital experiences, learning systems, and AI-assisted media concepts. My flagship project, Algorithm of the Day, explores how people and algorithms can turn facts, music, and community rituals into a new form of online media.
 
-Short Bulgarian hero placeholder:
+Short English hero placeholder:
 
-> Аз съм Александър Китипов — творчески технолог от Пловдив, който създава дигитални преживявания, учебни прототипи и AI‑асистирани медийни концепции.
+> I am Aleksandar Kitipov — a creative technologist from Plovdiv who creates digital experiences, learning prototypes, and AI-assisted media concepts.
 
 Skills placeholders:
 
@@ -967,14 +967,14 @@ Skills placeholders:
 - Programming/learning: Python fundamentals, JavaScript fundamentals.
 - AI collaboration: Copilot, Gemini, prompt-guided ideation.
 - Creative direction: media formats, episode structure, narrative design.
-- Communication: Bulgarian and English.
+- Communication: English.
 
 Project placeholder for Algorithm of the Day:
 
 - Title: Algorithm of the Day.
 - Category: AI-assisted media / learning experiment.
 - Status: In progress.
-- Description: A bilingual media concept where current facts, metaphors, music, and community prompts are shaped into short ritual-like episodes.
+- Description: An English-language media concept where current facts, metaphors, music, and community prompts are shaped into short ritual-like episodes.
 - Technologies: HTML, CSS, JavaScript, GitHub Pages, Google Colab, Python learning, AI collaboration.
 - Links: GitHub repository, Colab notebook.
 
@@ -1373,7 +1373,7 @@ Deliverables:
    - Whether any physical location should be shown beyond “Plovdiv, Bulgaria.”
 
 2. Confirm content direction:
-   - Bulgarian-first, English-first, or bilingual side-by-side.
+   - English-first presentation.
    - Professional tone vs. poetic/creative tone balance.
 
 3. Confirm deployment priority:

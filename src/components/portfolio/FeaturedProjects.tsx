@@ -10,7 +10,7 @@ function FeaturedProjects() {
         <h2 id="featured-projects-title">Projects with a clear learning story</h2>
         <p>
           Selected work presents the portfolio as both a professional React application
-          and a creative bilingual media experiment.
+          and a creative English-language media experiment.
         </p>
       </div>
       <div className="feature-grid">

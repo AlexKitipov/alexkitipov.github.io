@@ -7,13 +7,16 @@ function Hero() {
   return (
     <section className="portfolio-hero" aria-labelledby="page-title">
       <div className="hero-copy">
-        <p className="eyebrow">Portfolio home · Начало</p>
+        <p className="eyebrow">Portfolio home</p>
         <h1 id="page-title">{biography.name}</h1>
         <p className="hero-subtitle">{biography.title}</p>
         <p className="intro">{biography.shortBio}</p>
         <p className="bilingual-line">{biography.bilingualTagline}</p>
         <div className="actions hero-actions">
-          <Link className="primary-action" to={getProjectDetailPath(featuredProject.id)}>
+          <Link
+            className="primary-action"
+            to={getProjectDetailPath(featuredProject.id)}
+          >
             Explore featured project
           </Link>
           <Link className="secondary-action" to={routes.about}>

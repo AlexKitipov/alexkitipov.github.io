@@ -127,11 +127,11 @@ export const skillGroups: readonly SkillGroup[] = [
           'Shapes prologue, fact, metaphor, ritual, music, and community question segments.',
       },
       {
-        name: 'Bilingual content framing',
+        name: 'English content framing',
         category: 'creative-direction',
         level: 'practicing',
         summary:
-          'Blends Bulgarian project identity with concise English explanations for a wider audience.',
+          'Presents the project identity through concise English explanations for a wider audience.',
       },
     ],
   },
