@@ -33,7 +33,7 @@ export const projects: readonly Project[] = [
     title: 'Legacy Learning Archive',
     subtitle: 'Original static pages preserved as the portfolio origin story.',
     summary:
-      'A historical snapshot of early HTML pages, contact content, and learning links that informs the current bilingual experience.',
+      'A historical snapshot of early HTML pages, contact content, and learning links that informs the current English-language experience.',
     description:
       'The archive keeps the original learning material available while the React portfolio extracts durable content into typed project, biography, and skill data.',
     status: 'archived',
@@ -55,18 +55,18 @@ export const projects: readonly Project[] = [
   },
   {
     id: 'bilingual-learning-notes',
-    title: 'Bilingual Learning Notes',
-    subtitle: 'A planned space for Bulgarian-English study notes and reflections.',
+    title: 'English Learning Notes',
+    subtitle: 'A planned space for English study notes and technical reflections.',
     summary:
       'A concept placeholder for future writing that will connect portfolio updates with language learning and technical practice.',
     description:
-      'Bilingual Learning Notes is a planned portfolio section, not a completed product. It is included to show the roadmap while keeping project maturity transparent.',
+      'English Learning Notes is a planned portfolio section, not a completed product. It is included to show the roadmap while keeping project maturity transparent.',
     status: 'concept',
-    tags: ['Writing', 'Bulgarian', 'English', 'Learning'],
+    tags: ['Writing', 'English', 'Learning', 'Notes'],
     technologies: ['Markdown', 'React', 'Content modeling'],
     highlights: [
       'Reserved as a transparent placeholder for future project work.',
-      'Will focus on bilingual explanations rather than production software claims.',
+      'Will focus on clear English explanations rather than production software claims.',
       'Can reuse the same typed data structure as mature case studies when content is ready.',
     ],
     links: [],

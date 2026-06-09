@@ -4,7 +4,7 @@ function AboutNarrative() {
   return (
     <div className="about-narrative">
       <section className="info-panel narrative-lead" aria-labelledby="biography-title">
-        <p className="eyebrow">Biography · Биография</p>
+        <p className="eyebrow">Biography</p>
         <h2 id="biography-title">{biography.name}</h2>
         <p>{biography.overview}</p>
         <p>{biography.background}</p>

@@ -3,7 +3,7 @@ import type { Project } from '../types/project';
 
 export const algorithmOfTheDayProject: Project = {
   id: 'algorithm-of-the-day',
-  title: 'Алгоритъмът на деня | Algorithm of the Day',
+  title: 'Algorithm of the Day',
   subtitle: 'A concept-stage media ritual where people and algorithms learn together.',
   summary:
     'An educational web page, digital business card, and creative learning prototype created by Aleksandar Kitipov with AI collaborators.',
@@ -37,10 +37,9 @@ export const algorithmOfTheDayProject: Project = {
 export const algorithmOfTheDayCaseStudy = {
   overview:
     'The project explores a small daily format: choose a signal from the world, translate it through an accessible metaphor, and invite people to respond. It is intentionally labeled in progress because the public artifact is still evolving from static notes into a polished publishing workflow.',
-  role:
-    'Aleksandar owns the concept, editorial direction, learning goals, and public presentation. AI tools support drafting, structuring, and iteration, but the portfolio presents the work as a human-led creative learning system.',
+  role: 'Aleksandar owns the concept, editorial direction, learning goals, and public presentation. AI tools support drafting, structuring, and iteration, but the portfolio presents the work as a human-led creative learning system.',
   audience:
-    'Curious learners, friends, collaborators, and community members who enjoy bilingual education, reflective technology, and lightweight daily rituals.',
+    'Curious learners, friends, collaborators, and community members who enjoy English-language education, reflective technology, and lightweight daily rituals.',
   currentState:
     'The repository and Colab notebook document the idea and experimentation path. The next milestone is turning the format into a repeatable archive with scripts, audio, journal entries, and community prompts.',
   nextSteps: [

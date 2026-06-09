@@ -10,7 +10,7 @@ function AboutPage() {
         <p className="eyebrow">About</p>
         <h1 id="page-title">About Aleksandar Kitipov</h1>
         <p className="intro">
-          A concise bilingual profile for a creator shaping Algorithm of the Day,
+          A concise English profile for a creator shaping Algorithm of the Day,
           practical web learning, and AI-assisted project publishing.
         </p>
       </section>

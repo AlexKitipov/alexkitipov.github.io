@@ -4,7 +4,7 @@ export const biography = {
   birthplace: 'Plovdiv, Bulgaria',
   birthYear: 1976,
   overview:
-    'Aleksandar Kitipov is a Bulgarian creator and lifelong learner building a bilingual portfolio around web publishing, algorithm practice, and AI-assisted creative media.',
+    'Aleksandar Kitipov is a creator and lifelong learner building an English portfolio around web publishing, algorithm practice, and AI-assisted creative media.',
   shortBio:
     'From Plovdiv to the web, Aleksandar turns learning notes, experiments, and community prompts into clear digital experiences. His work balances structured engineering habits with a poetic signature: knowledge as a daily ritual.',
   role: 'He creates the structure, vision, and rituals that turn technical elements into a living educational media format.',
@@ -15,8 +15,8 @@ export const biography = {
   collaborationStyle:
     'Aleksandar works as a conductor of ideas: he defines the theme, keeps the learning goal visible, and uses AI collaborators for drafting, coding, commentary, and variation while keeping the final direction human-led.',
   currentFocus:
-    'Current focus: polishing the bilingual portfolio, expanding Algorithm of the Day into repeatable episode formats, and building typed project and skill archives that are easy to maintain.',
-  bilingualTagline: 'Алгоритъмът на деня — knowledge, music, and community in motion.',
+    'Current focus: polishing the English portfolio, expanding Algorithm of the Day into repeatable episode formats, and building typed project and skill archives that are easy to maintain.',
+  bilingualTagline: 'Algorithm of the Day — knowledge, music, and community in motion.',
   collaborators: [
     'Copilot — scriptwriter and commentator',
     'Gemini — generator of text, code, and data',
