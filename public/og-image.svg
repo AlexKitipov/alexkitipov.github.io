@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Aleksandar Kitipov portfolio social preview</title>
+  <desc id="desc">Social sharing image for kitipov.net and Algorithm of the Day.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1200" y1="0" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.5" stop-color="#1d4ed8" />
+      <stop offset="1" stop-color="#312e81" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(920 120) rotate(129) scale(540 360)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <circle cx="1060" cy="500" r="180" fill="#0f172a" opacity="0.55" />
+  <circle cx="190" cy="110" r="130" fill="#60a5fa" opacity="0.16" />
+  <path d="M830 156h310M830 226h230M830 296h275" stroke="#bae6fd" stroke-linecap="round" stroke-width="16" opacity="0.45" />
+  <text x="84" y="154" fill="#bfdbfe" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6">KITIPOV.NET</text>
+  <text x="80" y="270" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800">Aleksandar Kitipov</text>
+  <text x="84" y="352" fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700">Algorithm of the Day</text>
+  <text x="84" y="432" fill="#dbeafe" font-family="Inter, Arial, sans-serif" font-size="32">React portfolio · learning notes · AI-assisted publishing</text>
+  <rect x="84" y="488" width="344" height="58" rx="29" fill="#e0f2fe" opacity="0.95" />
+  <text x="114" y="526" fill="#1e3a8a" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">https://kitipov.net</text>
+</svg>
