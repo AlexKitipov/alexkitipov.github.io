@@ -121,12 +121,11 @@ export const socialLinks: readonly SocialLink[] = [
     description: 'Editor used in the legacy site origin story.',
   },
   {
-    label: 'Facebook profile name',
-    url: 'https://www.facebook.com/',
+    label: 'Facebook Profile',
+    url: 'https://www.facebook.com/aleksandar.kitipov',
     kind: 'facebook',
-    isPublic: false,
-    description:
-      'Legacy content listed the name “Aleksandar Kitipov”; no profile URL is published until confirmed.',
+    isPublic: true,
+    description: 'Official Facebook profile for professional and creative updates.',
   },
   {
     label: 'Legacy archive',
