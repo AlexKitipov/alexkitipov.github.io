@@ -6,7 +6,7 @@ export const biography = {
   overview:
     'Aleksandar Kitipov is a creator and lifelong learner building an English portfolio around web publishing, algorithm practice, and AI-assisted creative media.',
   shortBio:
-    'From Plovdiv to the web, Aleksandar turns learning notes, experiments, and community prompts into clear digital experiences. His work balances structured engineering habits with a poetic signature: knowledge as a daily ritual.',
+    'Architect of Algorithm of the Day. Turning technical notes, experiments, and community prompts into living media rituals. From Plovdiv to the web, balancing structured engineering with a poetic signature.',
   role: 'He creates the structure, vision, and rituals that turn technical elements into a living educational media format.',
   background:
     'Born in Plovdiv, Bulgaria, Aleksandar completed his primary and secondary education there before moving his curiosity into practical digital projects. The current portfolio preserves the spirit of the original static website while presenting the work through a modern React application.',

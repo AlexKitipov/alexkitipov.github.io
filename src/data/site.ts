@@ -8,7 +8,7 @@ export const site = {
   language: 'en',
   defaultTitle: 'Aleksandar Kitipov | Algorithm of the Day',
   defaultDescription:
-    'Portfolio for Aleksandar Kitipov featuring Algorithm of the Day, React projects, learning notes, skills, and safe public contact links.',
+    'Official portfolio of Aleksandar Kitipov, architect of Algorithm of the Day. Exploring the intersection of web publishing, algorithm practice, and AI-assisted creative media.',
   defaultImagePath: '/og-image.svg',
 } as const;
 
